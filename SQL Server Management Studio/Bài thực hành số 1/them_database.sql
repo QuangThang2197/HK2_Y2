@@ -1,0 +1,8 @@
+﻿USE [QLNV]
+GO
+
+INSERT INTO NHANVIEN (MANV, HOTEN, GIOITINH, NGAYSINH, LUONG, MAPHONG, SDT, NGAYBC)  values ('QT001', N'Hoàng Quang Thắng', N'Nam', '2002-8-10', 1500000, 'QTA', '', '2043-5-16')
+insert into TDNN (MANV, MANN, TDO) VALUES ('QT001','01', 'C')
+insert into TDNN (MANV, MANN, TDO) VALUES ('QT001','04', 'A')
+go
+
